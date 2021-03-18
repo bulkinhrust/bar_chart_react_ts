@@ -1,15 +1,8 @@
-import React from 'react';
+import { ChartType } from '../../types';
 
 import './styles.scss';
 
-type BarChartProps = {
-  title: string,
-  fill: string,
-  measure: string,
-  data: Array<number>,
-}
-
-const BarChart = ({ title, fill, measure, data }: BarChartProps) => {
+const BarChart = ({ title, fill, measure, data }: ChartType) => {
   const max = Math.max(...data);
   const getHeight = (num: number): number => num * 90 / max;
 

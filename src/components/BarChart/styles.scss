@@ -1,0 +1,39 @@
+$text: #6b6b6b;
+
+.chart {
+  display: grid;
+  grid-template-rows: 90% 10%;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+
+  &__area {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 3px solid #ccc;
+
+    &__bar {
+      width: 40px;
+      display: grid;
+      grid-template-rows: 20px 1fr;
+    }
+
+    &__value {
+      color: $text;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    &__item {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    color: $text;
+    font-weight: bold;
+    text-align: center;
+  }
+}

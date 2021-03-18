@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## DEMO
+
+https://bulkinhrust.github.io/bar_chart_react_ts/
+
 ## Available Scripts
 
 In the project directory, you can run:
